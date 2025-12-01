@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-MODEL_PATH = "model_final.h5"
+MODEL_PATH = "model_B1.h5"
 
 @st.cache_resource
 def load_model():
